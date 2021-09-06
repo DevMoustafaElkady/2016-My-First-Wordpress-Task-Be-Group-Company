@@ -1,0 +1,183 @@
+body{
+    direction: rtl;
+    font-family: 'flat-jooza','DroidArabicKufiRegular';
+}
+
+
+.overlay{
+    background: rgba(0,0,0,.7);
+    padding: 50px 0
+}
+
+.navbar-toggle{
+    float: right;
+    margin-top: 20px;
+    border: none
+}
+
+hr{
+    max-width: 80px;
+    border-top: 4px solid;
+    color: #3095A5;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-weight: bold
+}
+/** navbar **/
+
+.navbar{
+    min-height: 75px;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-nav{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.navbar-nav li a{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.navbar-brand{
+    padding: 0px 15px;
+    width: 120px;
+    float: left
+}
+
+/** about **/
+.about{
+    padding: 20px 0
+}
+
+.about p{
+    font-size: 30px
+}
+
+/** servises **/
+
+.servises{
+    padding-top: 0;
+    padding-bottom: 30px
+}
+.serv{
+    background: #F8F8F8;
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    height: 200px;
+    margin: 10px 5px;
+}
+
+.serv p{
+    margin-top: 10px;
+    font-size: 18px
+}
+
+.serv img{
+    width: 100%;
+    height: 150px;
+}
+
+/** asks **/
+
+.asks{
+    background: url(../images/background.png) center center no-repeat fixed
+}
+
+.asks h2{
+    color: #fff
+}
+
+dl{
+    width: 90%;
+    margin: auto;
+    text-align: center
+}
+
+dt:hover{
+    background-color: #3095A5;
+    color: #fff
+}
+
+dt{
+    background: #ddd;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+    font-size: 15px;
+    position: relative
+}
+
+dt i{
+    position: absolute;
+    left: 10px;
+    font-size: 11px !important;
+    top: 16px;
+}
+
+dd{
+    margin: 0;
+    padding: 20px;
+    border-top: 1px solid #FFF;
+    background: #fff;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+/** servises info **/
+.serv-info{
+    padding: 30px 0
+}
+
+.serv-info .ser-in h4{
+    margin-top: 10px;
+    color: #337ab7
+}
+
+.serv-info .ser-in p{
+    padding: 0 10px
+}
+
+.ser-in{
+    background: #F8F8F8;
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    height: 330px;
+}
+
+.ser-in img{
+    height: 215px;
+    width: 100%;
+}
+
+/** footer **/
+.footer{
+    background: #3A525F;
+    color: #fff;
+    padding: 50px 0
+}
+
+.footer .foot h4,.foot-last h4{
+    color: orange;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.footer .foot ul{
+    padding-right: 0
+}
+
+.footer .foot ul li{
+    display: inline-block
+}
+
+.footer a{
+    color: #fff
+}
